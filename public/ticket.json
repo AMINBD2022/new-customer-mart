@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "number": "#1001",
+    "title": "Login issue",
+    "description": "User unable to login with correct credentials.",
+    "customer": "John Doe",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "9/20/2025"
+  },
+  {
+    "id": 2,
+    "number": "#1002",
+    "title": "Payment not processing",
+    "description": "Customer reports payment gateway timeout.",
+    "customer": "Jane Smith",
+    "priority": "Urgent priority",
+    "status": "In Progress",
+    "createdAt": "9/21/2025"
+  },
+  {
+    "id": 3,
+    "number": "#1003",
+    "title": "Profile picture upload error",
+    "description": "Image upload failing for profile update.",
+    "customer": "Ali Hossain",
+    "priority": "Medium priority",
+    "status": "Resolved",
+    "createdAt": "9/18/2025"
+  },
+  {
+    "id": 4,
+    "number": "#1004",
+    "title": "Order not delivered",
+    "description": "Customer claims order not delivered after 5 days.",
+    "customer": "Maria Garcia",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "9/15/2025"
+  },
+  {
+    "id": 5,
+    "number": "#1005",
+    "title": "Mobile app crash",
+    "description": "App crashes on startup for Android 14 devices.",
+    "customer": "David Kim",
+    "priority": "Urgent priority",
+    "status": "In Progress",
+    "createdAt": "9/22/2025"
+  },
+  {
+    "id": 6,
+    "number": "#1006",
+    "title": "Refund request",
+    "description": "Customer requesting refund for accidental purchase.",
+    "customer": "Emma Wilson",
+    "priority": "Low priority",
+    "status": "Open",
+    "createdAt": "9/10/2025"
+  },
+  {
+    "id": 7,
+    "number": "#1007",
+    "title": "Email not received",
+    "description": "Verification email not being delivered.",
+    "customer": "Mohammed Ali",
+    "priority": "Medium priority",
+    "status": "Open",
+    "createdAt": "9/23/2025"
+  },
+  {
+    "id": 8,
+    "number": "#1008",
+    "title": "Cart not updating",
+    "description": "Items added to cart not showing correctly.",
+    "customer": "Sophia Brown",
+    "priority": "High priority",
+    "status": "Resolved",
+    "createdAt": "9/17/2025"
+  },
+  {
+    "id": 9,
+    "number": "#1009",
+    "title": "Subscription renewal failed",
+    "description": "Recurring payment did not process successfully.",
+    "customer": "Liam Johnson",
+    "priority": "Low PRIORITY",
+    "status": "Open",
+    "createdAt": "9/24/2025"
+  },
+  {
+    "id": 10,
+    "number": "#1010",
+    "title": "Slow website performance",
+    "description": "Website loading time is more than 8 seconds.",
+    "customer": "Olivia Martinez",
+    "priority": "Medium priority",
+    "status": "In Progress",
+    "createdAt": "9/19/2025"
+  },
+  {
+    "id": 11,
+    "number": "#1011",
+    "title": "Forgot password link not working",
+    "description": "Reset password email link expired immediately.",
+    "customer": "Noah Lee",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "9/25/2025"
+  },
+  {
+    "id": 12,
+    "number": "#1012",
+    "title": "Multiple login alerts",
+    "description": "Customer received suspicious login notifications.",
+    "customer": "Ava Patel",
+    "priority": "Low PRIORITY",
+    "status": "Open",
+    "createdAt": "9/14/2025"
+  },
+  {
+    "id": 13,
+    "number": "#1013",
+    "title": "Search not working",
+    "description": "Search results not showing any products.",
+    "customer": "Chris Evans",
+    "priority": "Medium priority",
+    "status": "Open",
+    "createdAt": "9/26/2025"
+  },
+  {
+    "id": 14,
+    "number": "#1014",
+    "title": "Live chat disconnect",
+    "description": "Customer reports frequent disconnection in live chat.",
+    "customer": "Mia Khalid",
+    "priority": "Urgent priority",
+    "status": "In Progress",
+    "createdAt": "9/26/2025"
+  }
+]
