@@ -1,7 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 
-const Tickets = ({onTicketClick, onProggressCount, resolvedTickets , removedResolvedTask, increaseResolvedNumber ,tickets , discressInprogressNumber}) => {
+const Tickets = ({onTicketClick, onProggressCount, resolvedTickets  ,tickets , handleComplateTask }) => {
     return (
        <div className='bg-[#F5F5F5] py-20 px-4'>
             <div className='max-w-[1440px] mx-auto'>
@@ -56,10 +56,7 @@ const Tickets = ({onTicketClick, onProggressCount, resolvedTickets , removedReso
                                     <li key={ticket.id} className="p-3 rounded bg-white shadow">
                                     <h4 className="font-medium mb-2 text-lg">{ticket.title}</h4>
                                     <button onClick={()=>{
-                                        increaseResolvedNumber()
-                                        discressInprogressNumber()
-                                        toast(`Your ${ticket.title} task has been complated !`);
-                                        removedResolvedTask(ticket.id)
+                                        handleComplateTask(ticket)
                                     }} className='btn bg-[#02A53B] w-full border-0'>Complete</button>
                                     </li>
                                 ))}
